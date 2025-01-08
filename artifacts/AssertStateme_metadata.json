@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assertStatment.sol": "AssertStateme"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assertStatment.sol": {
+			"keccak256": "0x5c6e64829b16d3c34e42c26711469fb7cc94d009a0f9a035103a3f6cd093f21d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://71c92edeed34052ef150778a88ea5bab229e7e0eda0cac55778b0f48ff1babaf",
+				"dweb:/ipfs/Qmd23aapMfqiQnZ7YHdWU5De3bDTRNDdxJmbYB9FwGxWUT"
+			]
+		}
+	},
+	"version": 1
+}

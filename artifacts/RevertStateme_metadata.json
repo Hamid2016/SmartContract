@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"revertStatment.sol": "RevertStateme"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"revertStatment.sol": {
+			"keccak256": "0x30532bf8004d6e9d477595882c0fc8eb5d44bd15ce6d27f6116cba517a95ae7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f28b9c37cd8d639c33d0fddc737318abfcac3cedb5922545719d3578f7a783d6",
+				"dweb:/ipfs/Qmcg8yyD6AhJcKRqThCnMekphGxc39LFZhFhrzwN2hdvf1"
+			]
+		}
+	},
+	"version": 1
+}

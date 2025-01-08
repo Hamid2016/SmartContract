@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"importEnum.sol": "Impor"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"importEnum.sol": {
+			"keccak256": "0x1e28afc8d335e7d739056c735130f29a2fd97e326bd40cc578924cafc29ef575",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24bb20675633ef8da83f496cdf218843f6bc35ebbf6b4dff72bffd0b7c090300",
+				"dweb:/ipfs/QmVqbW6X7gD6RGJsdoEjQMrrUbNq9GzWio4H49Mp131X1R"
+			]
+		}
+	},
+	"version": 1
+}
