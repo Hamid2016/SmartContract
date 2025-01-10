@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"struct.sol": "Name"
+			"dataLocation.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"struct.sol": {
+		"dataLocation.sol": {
 			"keccak256": "0x032d8d68758f8f6ae0dbb01b8d97f5ee42aa1fc0ea967d20bda6d0c10509ba52",
 			"license": "MIT",
 			"urls": [
