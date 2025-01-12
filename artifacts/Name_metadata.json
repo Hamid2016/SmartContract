@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"dataLocation.sol": "Name"
+			"interfaceSolidity.sol": "Name"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"dataLocation.sol": {
-			"keccak256": "0x032d8d68758f8f6ae0dbb01b8d97f5ee42aa1fc0ea967d20bda6d0c10509ba52",
+		"interfaceSolidity.sol": {
+			"keccak256": "0xdc8ad3c3eea6b1eede76a3d36401bfd45f627269f1803f729e073718d340c69b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8865dd3ccf7ed275b6bc5d89d9d55f6b3930dbf0d5d981390654105486aa0c0a",
-				"dweb:/ipfs/Qmb8uz4mSM8vnj4NRKRryGYQsCTzrTomwAicE26Am4183p"
+				"bzz-raw://606481bf3fb7f5789cf19b6fb4018c1f8718136e57dd6c3b15bed794ed11c533",
+				"dweb:/ipfs/QmReX8kqFGp499Rh9KKvkAHVuRsS25oB4K42JhuaqErUoS"
 			]
 		}
 	},

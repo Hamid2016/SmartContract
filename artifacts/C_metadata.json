@@ -6,45 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_text",
+						"name": "message",
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "Log",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "text",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -61,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructor.sol": "C"
+			"superKeyword.sol": "C"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -75,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"constructor.sol": {
-			"keccak256": "0xd267828782a8ff0bb6e7c7bd424656b9e0ff0903f12034e19d70985c4f57cef0",
+		"superKeyword.sol": {
+			"keccak256": "0x31506bf087c93ebe60ff644806bc6d8d2ee5fcefa3569007075d9b813d009d76",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f0795d47a5a45da8c32d4537bf2cbecaae2402efdefaa4f4b1e1caa785fc51b4",
-				"dweb:/ipfs/QmVzWqUAVCoTqHQ8HgkmxpgVruCBeLRzQyoD2Lq3U13GMs"
+				"bzz-raw://0166ddbf864b8228cd7beb87e75fc216a4767dcb6a9100563e7bd8d5726267e2",
+				"dweb:/ipfs/QmeZ97KH2ePHDcCkMCFcuMsvvEwaj5Crskg53q6vST6CuS"
 			]
 		}
 	},

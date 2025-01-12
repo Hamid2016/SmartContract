@@ -6,16 +6,30 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "message",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"constructor.sol": "B"
+			"superKeyword.sol": "B"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"constructor.sol": {
-			"keccak256": "0x7fb3c6ece3879bd2cd4fadec5d651617c19e8c76fd5772e3841ced8c3a56280c",
+		"superKeyword.sol": {
+			"keccak256": "0x31506bf087c93ebe60ff644806bc6d8d2ee5fcefa3569007075d9b813d009d76",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5f358929c596f1114281ee934ac69bf70e9ba275176e2e775a761d37dfd36046",
-				"dweb:/ipfs/QmbuEboQY2NDVK17EFn59Utxzk8WaVE297rLF3JbyZkEv2"
+				"bzz-raw://0166ddbf864b8228cd7beb87e75fc216a4767dcb6a9100563e7bd8d5726267e2",
+				"dweb:/ipfs/QmeZ97KH2ePHDcCkMCFcuMsvvEwaj5Crskg53q6vST6CuS"
 			]
 		}
 	},

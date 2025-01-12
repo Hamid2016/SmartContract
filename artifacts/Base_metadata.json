@@ -7,41 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "currentStatus",
+				"name": "testInternalFunc",
 				"outputs": [
 					{
-						"internalType": "enum Base.Status",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getStatus",
+				"name": "testPrivateFunc",
 				"outputs": [
 					{
-						"internalType": "enum Base.Status",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "enum Base.Status",
-						"name": "_status",
-						"type": "uint8"
-					}
-				],
-				"name": "setStatus",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"importEnum.sol": "Base"
+			"visibilitySolidity.sol": "Base"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"importEnum.sol": {
-			"keccak256": "0x3d1ae99a55bc775baf0e6bf7b73dd22e2bd87db9bd89e4e0765aa12cc5b35a64",
+		"visibilitySolidity.sol": {
+			"keccak256": "0x9674cf75fc69fc80f096cdfdcacbeec846c2fe6f793287fb64b393c652b69f98",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e930de14ef815f3f329f8ee1011699d946b79f193641abee22bf1d4345f32a9",
-				"dweb:/ipfs/QmfFvqeUfKH7mZnCtvMmX5L7Z5Q5NXkzbVxivuvcpVs6Zy"
+				"bzz-raw://e5dd57a991bc36a7184e3bdb534f3656af385db1bcc080243e4217f23c32e617",
+				"dweb:/ipfs/QmckKCtSmEcLaRVzrt5pkirRFxS2U4HS6uxsAHjLUwVZiN"
 			]
 		}
 	},

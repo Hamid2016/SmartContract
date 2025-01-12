@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"modifier.sol": "Functi"
+			"functionSolidity.sol": "Functi"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"modifier.sol": {
-			"keccak256": "0x54b795de77bcda86d2cc027c22738091d4bee414c8be42840609e492b126945f",
+		"functionSolidity.sol": {
+			"keccak256": "0xd324e816be70dcb00303f836227358649d74c9e9937c8c5d0576c402c625faa7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6fc71d742f2f84177108e54981332b4f237c6805ec4760543d8825471cabb1bc",
-				"dweb:/ipfs/QmdnukNKMhVzqfs1bbcPKHbPJcnWbXZZt6UN52rmeb7XQY"
+				"bzz-raw://71da490ac13d795c037f527562ab24bdc0217471d2f640a0ef3ffa75685c7160",
+				"dweb:/ipfs/QmaeQrztuKpNdkixuAwzk4wZP7vZXgY4MfrM8N28XSCmgX"
 			]
 		}
 	},
