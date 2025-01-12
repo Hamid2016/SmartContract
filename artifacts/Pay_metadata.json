@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"payableSolidity.sol": "Name"
+			"payableSolidity.sol": "Pay"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"payableSolidity.sol": {
-			"keccak256": "0x032d8d68758f8f6ae0dbb01b8d97f5ee42aa1fc0ea967d20bda6d0c10509ba52",
+			"keccak256": "0xd93015aabed1743cb0223dd3834124ca77424e2372e6f8402dc649b840e440cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8865dd3ccf7ed275b6bc5d89d9d55f6b3930dbf0d5d981390654105486aa0c0a",
-				"dweb:/ipfs/Qmb8uz4mSM8vnj4NRKRryGYQsCTzrTomwAicE26Am4183p"
+				"bzz-raw://73810fd268aad81f2729abe7442c9e6e8f49cc143a0aedf6d4ac8745f403cc75",
+				"dweb:/ipfs/QmUeLS89kAVx9nebjiakizvHmMECR8xZNibKLWmMnWMyGj"
 			]
 		}
 	},

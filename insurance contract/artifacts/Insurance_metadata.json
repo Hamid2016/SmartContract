@@ -1,0 +1,174 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "insured",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "policyName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "premium",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "coverageAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "PolicyCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_policyName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_premium",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_coverageAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "createPolicy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPolicies",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "policyName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "premium",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "coverageAmount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "isActive",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Insurance.Policy[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "policies",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "policyName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "premium",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "coverageAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isActive",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"insurance contract/insurance.sol": "Insurance"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"insurance contract/insurance.sol": {
+			"keccak256": "0x05b2f200faf7f8ba4cfb1d8194886d65986f241551cfe6006d958c16bcadd4ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e3bc62b9c3aeb52794b7e293fdd929ac182bcc017cf96f9d20b5a83c0e7ca49",
+				"dweb:/ipfs/QmbokfbFoQPNFRn8hooFdSmSJiLqTBrkAx1fsxuzFV26Q5"
+			]
+		}
+	},
+	"version": 1
+}
