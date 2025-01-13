@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -61,6 +66,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "destroyContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getPolicies",
 				"outputs": [
 					{
@@ -89,6 +101,19 @@
 						"internalType": "struct Insurance.Policy[]",
 						"name": "",
 						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -147,7 +172,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"insurance contract/insurance.sol": "Insurance"
+			"insurance contract/insuranceSelfDestruct.sol": "Insurance"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -161,12 +186,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"insurance contract/insurance.sol": {
-			"keccak256": "0x05b2f200faf7f8ba4cfb1d8194886d65986f241551cfe6006d958c16bcadd4ec",
+		"insurance contract/insuranceSelfDestruct.sol": {
+			"keccak256": "0x9f9cca33ca8ed2dbc600f22d912953a7820c737fbe1a9770a933ddf41274846f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7e3bc62b9c3aeb52794b7e293fdd929ac182bcc017cf96f9d20b5a83c0e7ca49",
-				"dweb:/ipfs/QmbokfbFoQPNFRn8hooFdSmSJiLqTBrkAx1fsxuzFV26Q5"
+				"bzz-raw://23e4df6a4778722660f01d9a2b742d410ea71fc0a60bdbf66b3c9816dc8c0e37",
+				"dweb:/ipfs/QmeYyjQi9od2AqJszihMCXbwkqF3rSz6453QWruxUQxPfc"
 			]
 		}
 	},
