@@ -86,7 +86,7 @@
 								"type": "bool"
 							}
 						],
-						"internalType": "struct Insurance.Policy[]",
+						"internalType": "struct InsuranceV2.Policy[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -147,7 +147,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"insurance contract/insurancev2.sol": "Insurance"
+			"insurance contract/insurancev2.sol": "InsuranceV2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -162,11 +162,11 @@
 	},
 	"sources": {
 		"insurance contract/insurancev2.sol": {
-			"keccak256": "0x0dff75246576777e44aea6aeb345f8f9729ebc73a676a6de12f6ec91136101c5",
+			"keccak256": "0xced2d8eef0e2f88092df2487810fedbb3382b0d72d5ff0374142697fae5eb735",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32a10605251eb1ec94fad82b6b280f2e8baaa8f1b7f5c2143dbea6d13ed3310d",
-				"dweb:/ipfs/QmfCWQ7maXbk3hZXBN6ZnSKc5e5SWCQaU5YYh6cnfkJwDG"
+				"bzz-raw://f659e4324da4567438133995cc669ccb3156b38225fc8a4064e0e7e2ccb46fc6",
+				"dweb:/ipfs/QmVihxrxAoZDDa7u23egG6AnzhkvPDejz4czF5n1xkvNxq"
 			]
 		}
 	},

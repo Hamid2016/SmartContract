@@ -2,7 +2,7 @@
 // Declaring the Solidity version
 pragma solidity ^0.8.18;
 
-contract Insurance {
+contract InsuranceV2 {
 
     // Defining a struct to represent an insurance policy
     struct Policy {
@@ -22,7 +22,7 @@ contract Insurance {
 
     // Function to create a new insurance policy
     // The function takes the policy's name, premium, and coverage amount as arguments
-    function createPolicy(string memory _policyName, uint256 _premium, uint256 _coverageAmount) public {
+    function createPolicy(string memory _policyName, uint256 _premium, uint256 _coverageAmount) public payable {
         // Creating a new policy and initializing the values
         Policy memory newPolicy = Policy({
             policyName: _policyName,           // Policy name

@@ -56,7 +56,7 @@
 				],
 				"name": "createPolicy",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -147,7 +147,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"insurance contract/insurancev2.sol": "Insurance"
+			"insurance contract/artifacts/insurance.sol": "Insurance"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -161,12 +161,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"insurance contract/insurancev2.sol": {
-			"keccak256": "0x0dff75246576777e44aea6aeb345f8f9729ebc73a676a6de12f6ec91136101c5",
+		"insurance contract/artifacts/insurance.sol": {
+			"keccak256": "0x35f14479c34a9c428b401774bc67bd22f37f539d36a331b7b256ec1f9b16102e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32a10605251eb1ec94fad82b6b280f2e8baaa8f1b7f5c2143dbea6d13ed3310d",
-				"dweb:/ipfs/QmfCWQ7maXbk3hZXBN6ZnSKc5e5SWCQaU5YYh6cnfkJwDG"
+				"bzz-raw://a81b190f6da97d09159b4cc1a7941300d16c04fe862852d54373eb87c2810a7d",
+				"dweb:/ipfs/QmcQFriwVSQ9MT4Vz1ydLCMVWAaLrpdgB2UpSXeSBPhVoi"
 			]
 		}
 	},

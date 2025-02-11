@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -37,16 +42,30 @@
 				"type": "event"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "PolicyWithdrawn",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
 						"name": "_policyName",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_premium",
-						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
@@ -86,9 +105,22 @@
 								"type": "bool"
 							}
 						],
-						"internalType": "struct Insurance.Policy[]",
+						"internalType": "struct InsuranceV.Policy[]",
 						"name": "",
 						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -132,6 +164,17 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -147,7 +190,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"insurance contract/insurancev2.sol": "Insurance"
+			"insurance contract/insurancev2.sol": "InsuranceV"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -162,11 +205,11 @@
 	},
 	"sources": {
 		"insurance contract/insurancev2.sol": {
-			"keccak256": "0x0dff75246576777e44aea6aeb345f8f9729ebc73a676a6de12f6ec91136101c5",
+			"keccak256": "0x7903a27899f13dfbe7ef7aca0ab40e1601b430dc8383827f4a603ca5c76a8a69",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32a10605251eb1ec94fad82b6b280f2e8baaa8f1b7f5c2143dbea6d13ed3310d",
-				"dweb:/ipfs/QmfCWQ7maXbk3hZXBN6ZnSKc5e5SWCQaU5YYh6cnfkJwDG"
+				"bzz-raw://b85a594d0ff8d3f991df338ac88c2a9a3b50f640c7301baf01d08512c5e65799",
+				"dweb:/ipfs/QmXnJ8XdJe3yJjKeDHwwJLF5nhCkGHcWMwdkcHPu48RBiK"
 			]
 		}
 	},

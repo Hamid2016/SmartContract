@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "airnode",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "endpointId",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "sponsor",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "sponsorWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "fulfillAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "fulfillFunctionId",
+						"type": "bytes4"
+					},
+					{
+						"internalType": "bytes",
+						"name": "parameters",
+						"type": "bytes"
+					}
+				],
+				"name": "makeFullRequest",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "requestId",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"insurance contract/InsuranceWithAPI3.sol": "IAirnodeRrp"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"insurance contract/InsuranceWithAPI3.sol": {
+			"keccak256": "0x17f32a3fa86f57e3a9ab190e44ac0e566e4a1498252fd126bd0c53ea816d0a9f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://055160ed8de15b05e1174758d6949b62147e3bb9511708a912d4e968c3aa0418",
+				"dweb:/ipfs/QmUgd6Urbgn4ugSmw8ftZLTsRihCoLhHmFS9SvT63ZoUZ9"
+			]
+		}
+	},
+	"version": 1
+}

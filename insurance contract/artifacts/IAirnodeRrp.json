@@ -1,0 +1,106 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"makeFullRequest(address,bytes32,address,address,address,bytes4,bytes)": "6e6be03f"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "airnode",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "endpointId",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "address",
+					"name": "sponsor",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "sponsorWallet",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "fulfillAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes4",
+					"name": "fulfillFunctionId",
+					"type": "bytes4"
+				},
+				{
+					"internalType": "bytes",
+					"name": "parameters",
+					"type": "bytes"
+				}
+			],
+			"name": "makeFullRequest",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "requestId",
+					"type": "bytes32"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

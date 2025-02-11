@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -56,7 +56,7 @@
 				],
 				"name": "createPolicy",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -147,9 +147,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"insurance contract/insurancev2.sol": "Insurance"
+			"insurance.sol": "Insurance"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -161,12 +161,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"insurance contract/insurancev2.sol": {
-			"keccak256": "0x0dff75246576777e44aea6aeb345f8f9729ebc73a676a6de12f6ec91136101c5",
+		"insurance.sol": {
+			"keccak256": "0x05b2f200faf7f8ba4cfb1d8194886d65986f241551cfe6006d958c16bcadd4ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32a10605251eb1ec94fad82b6b280f2e8baaa8f1b7f5c2143dbea6d13ed3310d",
-				"dweb:/ipfs/QmfCWQ7maXbk3hZXBN6ZnSKc5e5SWCQaU5YYh6cnfkJwDG"
+				"bzz-raw://7e3bc62b9c3aeb52794b7e293fdd929ac182bcc017cf96f9d20b5a83c0e7ca49",
+				"dweb:/ipfs/QmbokfbFoQPNFRn8hooFdSmSJiLqTBrkAx1fsxuzFV26Q5"
 			]
 		}
 	},

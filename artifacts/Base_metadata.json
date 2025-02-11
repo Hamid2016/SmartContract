@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "testInternalFunc",
+				"name": "getGreeting",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,12 +15,12 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "testPrivateFunc",
+				"name": "greeting",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -28,7 +28,20 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_greeting",
+						"type": "string"
+					}
+				],
+				"name": "setGreeting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"visibilitySolidity.sol": "Base"
+			"constructor.sol": "Base"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,18 +66,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"visibilitySolidity.sol": {
-			"keccak256": "0x9674cf75fc69fc80f096cdfdcacbeec846c2fe6f793287fb64b393c652b69f98",
+		"constructor.sol": {
+			"keccak256": "0xde257ae507363cb250eeaa9f5ebdf9f9ac09faa9fa7f7ccd287775c213c25657",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5dd57a991bc36a7184e3bdb534f3656af385db1bcc080243e4217f23c32e617",
-				"dweb:/ipfs/QmckKCtSmEcLaRVzrt5pkirRFxS2U4HS6uxsAHjLUwVZiN"
+				"bzz-raw://31979f6e817a6aec458f9c6668f6d7318167846ba455ef4b74aafe849282ce37",
+				"dweb:/ipfs/Qma8tmNv3RuerdarEeeeTV8J83WESX5S5SR4a56gCZDLib"
 			]
 		}
 	},
